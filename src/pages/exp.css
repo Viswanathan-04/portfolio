@@ -1,0 +1,136 @@
+.explbl{
+    text-align: center;
+    padding: 10px;
+}
+.explbl .exp-lbl{
+    font-size: 24px;
+    color: white;
+}
+.exphome{
+    display: flex;
+    flex-direction: row;
+    backdrop-filter: blur(6px);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+}
+.exphome .exp-1{
+    margin: 30px auto;
+    text-align: center;
+}
+.exphome .exp-1 .exp-1-1{
+    display: flex;
+    flex-direction: column;
+}
+.exphome .exp-1 .prog{
+    padding: 10px;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 20px auto;
+    color: white;
+    text-align: center;
+}
+.exphome .exp-1 .exp-1-1 .exp-1-1-1{
+    margin: auto;
+    padding: 10px;
+    display: flex;
+}
+.exphome .exp-1 .exp-1-1 .exp-1-1-1 .lang{
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 30px;
+    margin: 0px 6px;
+    font-weight: 500;
+    border: aquamarine 3px solid;
+    background-color: wheat;
+}
+.exphome .exp-2{
+    margin: 20px auto;
+    text-align: center;
+}
+.exphome .exp-2 .exp-2-1{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.exphome .exp-2 .headexp{
+    font-size: 24px;
+    margin: 10px auto;
+    color: white;
+    font-weight: 500;
+}
+.exphome .exp-2 .exp-2-1 .exp-2-1-1{
+    display: flex;
+    flex-direction: row;
+}
+.exphome .exp-2 .exp-2-1 .exp-2-1-1 .circle2{
+    font-size: 20px;
+    margin: 20px;
+    color: aquamarine;
+}
+.exphome .exp-2 .exp-2-1 .exp-2-1-1 .para2{
+    font-size: 17px;
+    text-align: left;
+    color: wheat;
+}
+.exphome .exp-2 .exp-2-1 .exp-2-1-1 .para2 .span2{
+    font-size: 20px;
+    margin: 0px;
+    color: white;
+}
+
+.exphome .exp-3{
+    margin: 20px auto;
+    text-align: center;
+}
+.exphome .exp-3 .cerexp{
+    text-align: center;
+    font-size: 24px;
+    margin: 10px auto;
+    color: white;
+    font-weight: 500;
+}
+.exphome .exp-3 .exp-3-1{
+    display: flex;
+    flex-direction: column;
+}
+.exphome .exp-3 .exp-3-1 .exp-3-1-1{
+    display: flex;
+    flex-direction: row;
+}
+.exphome .exp-3 .exp-3-1 .exp-3-1-1 .circle3{
+    font-size: 20px;
+    margin: 20px;
+    color: aquamarine;
+    animation: dot1 2s alternate infinite;
+}
+.exphome .exp-3 .exp-3-1 .exp-3-1-1 .exp-3-txt{
+    font-size: 18px;
+    color: wheat;
+    text-align: left;
+}
+
+@media screen and (max-width:850px) {
+    .exphome{
+        flex-direction: column;
+    }
+    .exphome .exp-1 .exp-1-1 .exp-1-1-1 .lang{
+        margin: 0px 2px;
+    }
+    .exphome{
+        border-radius: 20px;
+        background-color: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(6px);
+    }
+}
+@media screen and (max-width:425px) {
+    .exphome .exp-1 .exp-1-1 .exp-1-1-1{
+        flex-direction: column;
+        padding: 0px;
+    }
+    .exphome .exp-1 .exp-1-1 .exp-1-1-1 .lang{
+        margin: 5px auto;
+        padding: 10px 25px;
+    }
+
+}

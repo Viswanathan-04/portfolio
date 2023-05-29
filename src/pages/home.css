@@ -1,0 +1,142 @@
+.main-home{
+    padding: 20px;
+    display: flex;
+    margin: 5px;
+    flex-direction: row;
+}
+.hlbl{
+    text-align: center;
+    padding: 0px 10px 20px 10px;
+}
+.hlbl .h-lbl{
+    font-size: 24px;
+    color: white;
+}
+.main-home .home1{
+    justify-content: space-between;
+    margin: 40px auto;
+}
+.main-home .home1 .p1{
+    font-size: 23px;
+    margin: 50px auto;
+    color: rgba(255, 255, 255, 0);
+    animation: wel 1s forwards;
+    animation-delay: 4s;
+    font-weight: 500;
+    line-height: 40px;
+}
+@keyframes tube {
+    3%,7%,10%,50%,75%,99%{opacity: 0.3;}
+    0%,9%,11%,20%,50%,76%,100%{opacity: 1;}
+}
+@keyframes wel {
+    from {color: black;}
+    to {color: wheat;}
+}
+.main-home .home1 .p1 .hs1{
+    font-size: 28px;
+    animation: wel 2s forwards;
+}
+@keyframes sample {
+    from {border-right:  rgb(255, 255, 255) 3px solid;}
+    to {border-right:  rgba(255, 255, 255, 0) 3px solid;}
+}
+.main-home .home1 .p1 .hs2{
+    font-size: 40px;
+    color: rgb(16, 231, 255);
+    border-right: 5px;
+    opacity: 0;
+    text-shadow: 1px 1px 20px  rgb(16, 231, 255);
+    animation: tube 3s forwards, sample 0.5s infinite;
+    animation-delay: 2s, 6s;
+    padding-right: 5px;
+}
+@keyframes opaq {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+.main-home .home1 .more{
+    background-color: rgba(0, 229, 255,0.9);
+    box-shadow: 1px 1px 20px rgba(0, 229, 255, 0.9);
+    text-decoration: none;
+    color: white;
+    opacity: 0;
+    animation: opaq 1s forwards;
+    animation-delay: 5s;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+@keyframes sample1 {
+    0% {margin-bottom: 4px;}
+    50% {margin-bottom: 0px;}
+    100% {margin-bottom: 4px;}
+}
+.main-home .home1 .more .mbtn{
+    font-size: 22px;
+    width: 35px;
+    animation: sample1 0.8s infinite;
+}
+.main-home .home1 .p1 .res{
+    background-color: rgba(0, 229, 255, 0.9);
+    text-decoration: none;
+    box-shadow: 1px 1px 20px rgba(0, 229, 255, 0.9);
+    color: white;
+    opacity: 0;
+    animation: opaq 1s forwards;
+    animation-delay: 6s;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+.main-home .home1 .res .mbtn{
+    font-size: 22px;
+    width: 35px;
+    animation: sample1 0.8s infinite;
+}
+
+.main-home .home2{
+    margin: auto;
+}
+.main-home .home2 img{
+    border-radius: 50%;
+    height: 300px;
+    margin: 50px 0px;
+    border: white 7px solid;
+}
+
+@media screen and (max-width:1024px) {
+    .main-home .home1{
+        margin: auto;
+    }
+}
+@media screen and (max-width:850px) {
+    .main-home .home1{
+        margin: auto;
+    }
+    .main-home .home1 .resbtn{
+        padding: 10px 0px;
+    }
+    .main-home .home1 .p1{
+        margin: 0px;
+        margin-bottom: 20px;
+    }
+    .main-home{
+        flex-direction: column-reverse;
+        background-color: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(6px);
+        border-radius: 20px;
+    }
+    .main-home .home2 img{
+        margin: 0px 0px 20px 0px;
+    }
+}
+@media screen and (max-width:425px) {
+    .main-home .home1{
+        margin: auto;
+    }
+    .main-home .home1 .p1{
+        line-height: 40px;
+    }
+    .main-home .home2 img{
+        height: 250px;
+    }
+}

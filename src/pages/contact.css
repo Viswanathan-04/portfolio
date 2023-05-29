@@ -1,0 +1,57 @@
+.conlbl{
+    text-align: center;
+    padding: 10px;
+}
+.conlbl .con-lbl{
+    font-size: 24px;
+    color: white;
+}
+.conhome{
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(6px);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px 5px;
+}
+.conhome .con-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.conhome .con-1 .con-1-1{
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.conhome .con-1 .con-1-1 .con-1-1-1{
+    font-size: 22px;
+    color:wheat;
+}
+.conhome .con-1 .con-1-1 .con-1-1-2{
+    font-size: 20px;
+    color:white;
+    margin: auto 10px;
+}
+.conhome .con-2{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.conhome .con-2 .con-2-1{
+    font-size: 30px;
+    color: aquamarine;
+    margin: 10px 15px;
+}
+
+@media screen and (max-width:850px) {
+    .conhome .con-1{
+        flex-direction: column;
+        margin: auto;
+    }
+    .conhome{
+        border-radius: 20px;
+        background-color: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(6px);
+    }
+}

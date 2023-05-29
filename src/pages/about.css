@@ -1,0 +1,131 @@
+.ablbl{
+    text-align: center;
+    padding: 10px;
+}
+.ablbl .abh-lbl{
+    font-size: 24px;
+    color: white;
+}
+.abhome{
+    display: flex;
+    flex-direction: row;
+    backdrop-filter: blur(6px);
+    border-radius: 20px;
+    margin: 5px;
+    justify-content: space-evenly;
+}
+.abhome .abh-1{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+}
+.abhome .abh-1 .abh-1-1{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 0px 40px 0px;
+}
+.abhome .abh-1 .abh-1-1 .headab1{
+    text-align: center;
+    font-size: 24px;
+    margin: 10px;
+    color: white;
+    font-weight: 500;
+}
+.abhome .home2{
+    text-align: center;
+    padding: 15px;
+    margin: auto;
+}
+.abhome .home2 .headab2{
+    font-size: 24px;
+    color: white;
+    font-weight: 500;
+    margin: 10px;
+}
+.abhome .abh-1 .abh-1-1 .abh-1-1-1{
+    display: flex;
+    flex-direction: row;   
+}
+.abhome .abh-1 .abh-1-1 .abh-1-1-1 .circle1{
+    font-size: 20px;
+    margin: 20px;
+    color: aquamarine;
+}
+.abhome .abh-1 .abh-1-1 .abh-1-1-1 .para1{
+    font-size: 17px;
+    color: wheat;
+}
+.abhome .abh-1 .abh-1-1 .abh-1-1-1 .para1 .span1{
+    font-size: 20px;
+    margin: 0px;
+    padding-bottom: 5px;
+    color: white;
+}
+.abhome .home2 {
+    margin: 10px;
+}
+.abhome .home2 .home2-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 10px;
+    padding: 10px 0px 15px 0px;
+}
+.abhome .home2 .home2-1 .text0{
+    display: none;
+    color: aquamarine;
+}
+.abhome .home2 .home2-1 .text1{
+    padding: 10px;
+    font-size: 24px;
+    color: white;
+}
+.abhome .home2 .home2-1 .text2{
+    padding: 10px;
+    font-size: 22px;
+    text-align: right;
+}
+.abhome .home2 .home2-1 .text2 a{
+    text-decoration: none;
+    color: wheat;
+    font-weight: 500;
+}
+@media screen and (max-width:850px) {
+    .abhome {
+        flex-direction: column;
+        text-align: left;
+        border-radius: 20px;
+        background-color: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(6px);
+    }
+    .abhome .abh-1{
+        margin: auto;
+    }
+    .abhome .home2{
+        padding: 0px;
+        margin: 10px 15%;
+    }
+}
+@media screen and (max-width:425px) {
+    .abhome .home2{
+        margin: 0px 5px;
+    }
+    .abhome .home2 .home2-1{
+        margin: 0px 10%;
+    }
+}
+@media screen and (max-width:1024px) {
+    .abhome .home2 .home2-1 .text0{
+        display: block;
+        text-align: center;
+        font-size: 28px;
+        margin-top: 8px;
+        margin-left: 8px;
+    }
+    .abhome .home2 .home2-1 .text1{
+        display: none;
+    } 
+    .abhome .home2 .home2-1{
+        margin: 0%;
+    }
+}

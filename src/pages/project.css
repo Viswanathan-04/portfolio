@@ -1,0 +1,74 @@
+.prolbl{
+    text-align: center;
+    padding: 10px;
+}
+.prolbl .pro-lbl{
+    font-size: 24px;
+    color: white;
+}
+.prohome{
+    display: flex;
+    flex-direction: column;
+    backdrop-filter: blur(6px);
+    border-radius: 20px;
+    padding: 10px;
+    margin: 5px;
+}
+.prohome .pro-1{
+    display: flex;
+    flex-direction: column;
+    margin: 15px 10px;
+}
+.prohome .pro-1 .pro-1-1{
+    margin: 5px ;
+    display: flex;
+    flex-direction: row;
+}
+.prohome .pro-1 .pro-1-1 .circle4{
+    margin: 12px 0px;
+    font-size: 17px;
+    color: aquamarine;
+}
+.prohome .pro-1 .pro-1-1 .txt-1{
+    margin: 5px 15px;
+    font-size: 22px;
+    color: wheat;
+}
+.prohome .pro-1 .redir{
+    border: 3px;
+    margin: 10px 30px;
+    border-radius: 20px;
+    border: white 3px solid;
+    background-color: #7171ff;
+    text-decoration: none;
+    color: white;
+    padding: 12px;
+    width: 140px;
+    text-align: center;
+}
+.prohome .pro-1 .pro-1-2{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 20px;
+}
+.prohome .pro-1 .pro-1-2 .txt-2{
+    font-size: 21px;
+    margin:auto 20px;
+    text-align: left;
+    color: aquamarine;
+}
+.prohome .pro-1 .pro-1-2 .txt-3{
+    margin: 10px 20px;
+    color: white;
+}
+@media screen and (max-width: 850px) {
+    .prohome .pro-1 .pro-1-2{
+        display: flex;
+        flex-direction: column;
+    }
+    .prohome{
+        border-radius: 20px;
+        background-color: rgba(255, 255, 255, 0.2);
+        backdrop-filter: blur(6px);
+    }
+}

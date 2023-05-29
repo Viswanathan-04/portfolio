@@ -1,0 +1,20 @@
+
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    margin: 10px;
+    background: rgb(0, 0, 0);
+    /*background: url('https://images.hdqwalls.com/download/geometry-of-lights-4k-zb-3840x2160.jpg');*/
+}
+.footer{
+    text-align: center;
+}
+.footer .cp{
+    font-size: 14px;
+}
+.footer .ftxt{
+    color: wheat;
+    margin: 10px auto;
+    font-size: 16px;
+}
