@@ -1,0 +1,213 @@
+:root {
+    --linear-bg-1: #02aab0;
+    --linear-bg-2: #753a88;
+    --primary-text-color: #3cddd0;
+    --secondary-text-color: #f0c66d;
+    --tertiary-text-color: #ffffff;
+}
+
+.App {
+    display: flex;
+    flex-direction: row;
+}
+
+.dark-mode {
+    background: linear-gradient(135deg, var(--linear-bg-1), var(--linear-bg-2));
+    background-size: 400%;
+    color: white;
+}
+
+.App .nav-bar {
+    background-color: black;
+    display: flex;
+    position: sticky;
+    left: 0;
+    top: 0;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+    border-radius: 0px 50px 50px 0px;
+    animation: breathe-1 2s alternate infinite;
+    width: 20%;
+    margin-right: 10px;
+    z-index: 1;
+}
+
+@keyframes breathe-1 {
+    from { box-shadow: 0px 0px 5px var(--secondary-text-color); }
+    to { box-shadow: 0px 0px 15px var(--secondary-text-color); }
+}
+
+.App .content {
+    position: relative;
+    width: 80%;
+    overflow: hidden;
+}
+
+.App .nav-bar .img-logo {
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+.App .nav-bar .img-logo img {
+    max-width: 100px;
+    margin: auto;
+    filter: drop-shadow(0px 3px var(--secondary-text-color));
+}
+
+.App .nav-bar nav {
+    display: flex;
+    flex-direction: column;
+    margin: 40px auto;
+    gap: 50px;
+}
+
+.App .nav-bar nav a {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    color: var(--tertiary-text-color);
+    justify-content: center;
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
+}
+
+.App .nav-bar nav a:hover,
+.App .nav-bar nav a.active,
+.App .nav-bar .toggle:hover,
+.App .nav-bar .theme:hover {
+    color: var(--secondary-text-color);
+}
+
+.App .nav-bar nav span {
+    margin: auto;
+    margin-left: 15px;
+}
+
+.App .nav-bar nav .icon {
+    font-size: 22px;
+}
+
+.App .nav-bar .buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: auto;
+}
+
+.App .nav-bar .toggle {
+    display: none;
+}
+
+.App .nav-bar .toggle, .theme {
+    color: white;
+    max-width: 100px;
+    margin: 20px auto;
+    font-size: 18px;
+    background-color: transparent;
+    border: none;
+}
+
+@media screen and (orientation:landscape) {
+    .App .nav-bar {
+        overflow: scroll;
+    }
+    .App .nav-bar::-webkit-scrollbar {
+        display: none;
+    }
+}
+@media screen and (max-width: 768px) {
+    .App .nav-bar nav {
+        display: flex;
+        padding: 10px 0px;
+    }
+    .App .nav-bar nav span {
+        display: none;
+    }
+    .App .nav-bar {
+        justify-content: start;
+        gap: 30px;
+    }
+    .App .nav-bar .theme {
+        margin: auto;
+        font-size: 20px;
+    }
+    .App .nav-bar .img-logo img {
+        width: 70px;
+        scale: 1.0;
+    }
+    .App .nav-bar .img-logo span {
+        display: none;
+    }
+    .App .nav-bar .buttons {
+        
+        margin-bottom: auto;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 456px) {
+    .App {
+        flex-direction: column;
+    }
+    .App .nav-bar {
+        position: sticky;
+        overflow: visible;
+        top: 0px;
+        gap: 0px;
+        flex-direction: row;
+        height: 10vh !important;
+        min-width: 100vw;
+        justify-content: space-between;
+        border-radius: 0px 0px 30px 30px;
+    }
+    .App .content {
+        width: 100%;
+    }
+    .App .nav-bar a.img-logo {
+        margin: auto 0px;
+    }
+    .App .nav-bar a.img-logo img {
+        display: flex;
+        max-width: 60px;
+        margin-left: 20px;
+        filter: none;
+    }
+    .App .nav-bar nav {
+        display: none;
+        position: absolute;
+        border-radius: 20px;
+        left: 0;
+        background-color: black;
+        margin: auto;
+        min-width: 100%;
+        padding: 0.8rem 0px;
+        gap: 0px;
+        justify-content: space-evenly;
+        flex-direction: row;
+        animation: slide 1s forwards;
+    }
+    @keyframes slide {
+        from {translate: 0px -70px;}
+        to {translate: 0px 70px;}
+    }
+    .App .nav-bar nav .icon {
+        margin: 10px;
+        font-size: 18px;
+    }
+    .App .nav-bar .buttons .toggle {
+        display: flex;
+    }
+    .App .nav-bar .buttons .theme
+    {
+        margin-top: 27%;
+    }
+    .App .nav-bar .buttons {
+        margin: auto 0px;
+        gap: 10px;
+        margin-right: 10px;
+        flex-direction: row;
+    }
+}

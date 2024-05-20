@@ -1,0 +1,104 @@
+.main-5
+{
+    margin: 10px;
+    padding: 10px;
+}
+.main-5 .main-5-2
+{
+    display: block;
+    padding: 20px 10px;
+    border-radius: 25px;
+    background-color: rgb(50, 50, 50);
+    border: 3px solid var(--tertiary-text-color);
+    box-shadow: 0px 0px 10px var(--tertiary-text-color);
+}
+.main-5 .main-5-2 .exclaimation
+{
+    display: flex;
+    margin: auto;
+    font-size: 40px;
+}
+.main-5 .main-5-1
+{
+    display: block;
+}
+.main-5 .main-5-1 input[id="input1"],
+.main-5 .main-5-1 textarea[id="input2"]
+{
+    padding: 5px;
+    border-radius: 10px;
+    min-width: 35vw;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'Brush Script MT';
+}
+.main-5 .main-5-1 textarea[id="input2"]
+{
+    height: 200px;
+}
+.main-5 .main-5-1 .form-contact
+{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: max-content;
+    padding: 20px;
+    margin: 30px auto;
+    border-radius: 25px;
+    background-color: rgb(50, 50, 50);
+    box-shadow: 0px 0px 10px var(--tertiary-text-color);
+}
+.main-5 .main-5-1 .form-contact .submit-btn
+{
+    width: max-content;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    color: var(--secondary-text-color);
+    border: 3px solid var(--secondary-text-color);
+    background-color: transparent;
+    font-size: 16px;
+    transition: 0.3s ease-in-out;
+}
+.main-5 .main-5-1 .form-contact .submit-btn:hover
+{
+    color: var(--tertiary-text-color);
+    opacity: 0.8;
+    background-color: var(--secondary-text-color);
+    box-shadow: 0px 0px 5px var(--secondary-text-color);
+}
+.main-5 .main-5-1 .contact-links
+{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: 30px;
+    justify-content: center;
+}
+.main-5 .main-5-1 .contact-links .link-git
+{
+    font-size: 30px;
+    color: var(--tertiary-text-color);
+    transition: 0.3s ease-in-out;
+}
+.main-5 .main-5-1 .contact-links .link-git:hover
+{
+    color: var(--primary-text-color);
+    scale: 1.2;
+}
+@media screen and (max-width:456px) {
+    .main-5
+    {
+        margin: 0px;
+    }
+    .main-5 .main-5-1 input[id="input1"], textarea[id="input2"]
+    {
+        min-width: 60vw;
+    }
+    .main-5 .main-5-1 .contact-links .link-git
+    {
+        font-size: 26px;
+    }
+}

@@ -1,0 +1,95 @@
+.main-4
+{
+    margin: 20px 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.main-4 .projects
+{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.main-4 .more
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main-4 .more .more-btn
+{
+    padding: 10px 20px;
+    height: max-content;
+    margin: auto 0px;
+    background-color: transparent;
+    border: none;
+    color: var(--primary-text-color);
+    text-decoration: none;
+    font-size: 18px;
+}
+.main-4 .projects .project
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main-4 .projects .project-title, .watchers
+{
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+}
+.watchers-1
+{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.main-4 .main-4-1
+{
+    background: rgb(60, 60, 60 );
+    box-shadow: 0px 0px 8px var(--tertiary-text-color);
+    border: 2px solid var(--tertiary-text-color);
+    border-radius: 10px;
+    padding: 10px;
+}
+.main-4 .main-4-1:hover
+{
+    scale: 1.05;
+}
+.main-4 .main-4-1 a
+{
+    margin: auto 0px;
+}
+.main-4 .main-4-1 svg
+{
+    margin: auto 10px;
+}
+.main-4 .projects .main-4-err
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    width: 100%;
+    background-color: rgb(60, 60, 60 );
+}
+@media screen and (max-width: 768px) {
+    .main-4 .projects
+    {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media screen and (max-width: 456px) {
+    .main-4
+    {
+        margin: 0px;
+    }
+    .main-4 .projects .project
+    {
+        flex-direction: column;
+    }
+    .main-4 .more .more-btn
+    {
+        text-align: right;
+    }
+}
