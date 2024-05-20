@@ -1,8 +1,8 @@
 :root {
-    --linear-bg-1: #1b7187;
-    --linear-bg-2: #753a88;
-    --primary-text-color: #47b3aa;
-    --secondary-text-color: #c3a86f;
+    --linear-bg-1: #0c4054;
+    --linear-bg-2: #748d92;
+    --primary-text-color: #e6ecb7;
+    --secondary-text-color: #28e3c4;
     --tertiary-text-color: #ffffff;
 }
 
@@ -13,7 +13,7 @@
 
 .dark-mode {
     background: linear-gradient(135deg, var(--linear-bg-1), var(--linear-bg-2));
-    background-size: 200% 200%;
+    background-size: 200% 100%;
     color: white;
 }
 
