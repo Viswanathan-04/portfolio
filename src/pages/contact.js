@@ -49,7 +49,7 @@ function Contact()
     const [message, setMessage] = useState("");
     return (
         <div className="main-5">
-            <h2 className="main-5-1-title" style={{textAlign: "center"}}>Connect to Me</h2>
+            <h2 className="main-5-1-title" style={{textAlign: "center"}}>Any Queries ?</h2>
             {val!=="Error Connecting to Network" ? <div className="main-5-1">
                 <form className="form-contact">
                     <input type="email" id="input1" placeholder="Mail-id" onChange={(event) => setMail(event.target.value)} required></input>
