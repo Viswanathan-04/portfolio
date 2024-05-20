@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.470d45d3.css",
-    "main.js": "/portfolio/static/js/main.1101c0b6.js",
+    "main.css": "/portfolio/static/css/main.dc54c58d.css",
+    "main.js": "/portfolio/static/js/main.dd4e70c2.js",
     "static/media/Viswanathan_Krishnan_Resume_1.pdf": "/portfolio/static/media/Viswanathan_Krishnan_Resume_1.5ef99062ad209a1d1e02.pdf",
     "static/media/background.png": "/portfolio/static/media/background.3fe25fe521ec7e6d48f8.png",
     "index.html": "/portfolio/index.html",
-    "main.470d45d3.css.map": "/portfolio/static/css/main.470d45d3.css.map",
-    "main.1101c0b6.js.map": "/portfolio/static/js/main.1101c0b6.js.map"
+    "main.dc54c58d.css.map": "/portfolio/static/css/main.dc54c58d.css.map",
+    "main.dd4e70c2.js.map": "/portfolio/static/js/main.dd4e70c2.js.map"
   },
   "entrypoints": [
-    "static/css/main.470d45d3.css",
-    "static/js/main.1101c0b6.js"
+    "static/css/main.dc54c58d.css",
+    "static/js/main.dd4e70c2.js"
   ]
 }
