@@ -41,6 +41,9 @@ function Contact()
             document.getElementById("input1").value="";
             document.getElementById("input2").value="";
         }
+        else{
+            alert("Please enter all fields")
+        }
     });
     const [mail, setMail] = useState("");
     const [message, setMessage] = useState("");
