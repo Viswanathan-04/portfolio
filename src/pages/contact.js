@@ -32,7 +32,7 @@ function Contact()
             
             emailjs.send(process.env.REACT_APP_SERVICE_ID, process.env.REACT_APP_TEMPLATE_ID, templateParams).then(
             (response) => {
-                alert("Response sent!! You will be responded shortly")
+                alert("Message sent to Viswanathan !! ")
             },
             (error) => {
                 alert(error);
@@ -42,7 +42,7 @@ function Contact()
             document.getElementById("input2").value="";
         }
         else{
-            alert("Please enter all fields")
+            alert("Please fill all the fields !!")
         }
     });
     const [mail, setMail] = useState("");
