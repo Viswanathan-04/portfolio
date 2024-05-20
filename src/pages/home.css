@@ -23,6 +23,10 @@
     font-size: 2.5rem;
     margin: 15px 20px;
 }
+.main-1 .main-1-2 .main-2-1 .dot
+{
+    color: var(--tertiary-text-color);
+}
 .main-1 .main-1-1 .desc-1-2 span
 {
     color: var(--secondary-text-color);
@@ -179,6 +183,7 @@
     .main-1
     {
         flex-direction: column;
+        gap: 20px;
     }
     .main-1 img
     {
@@ -201,6 +206,7 @@
     .main-1 .main-1-2
     {
         margin: 0px 10px;
+        gap: 35px;
     }
     .main-1 .main-1-2 .education, .education-1
     {

@@ -20,7 +20,7 @@ function Projects() {
     return (
         <div className="main-4">
             <div className="more">
-                <h2 className="main-4-title" style={{marginLeft: "10px", color: "var(--primary-text-color"}}>Projects Done</h2>
+                <h2 className="main-4-title" style={{marginLeft: "10px"}}>Projects Done</h2>
                 <a className="more-btn" href="https://github.com/Viswanathan-04?tab=repositories">See More</a>
             </div>
             <div className="projects">

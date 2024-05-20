@@ -5,7 +5,7 @@ function Experience()
 {
     return (
         <div className="main-2">
-            <h2 className="main-2-title" style={{color : "var(--primary-text-color)"}}>Experience</h2>
+            <h2 className="main-2-title">Experience</h2>
             <div className="main-2-1">
                 <div className="main-2-1-left">
                     <div className="main-2-1-company">

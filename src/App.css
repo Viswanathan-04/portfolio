@@ -1,8 +1,8 @@
 :root {
-    --linear-bg-1: #02aab0;
+    --linear-bg-1: #1b7187;
     --linear-bg-2: #753a88;
-    --primary-text-color: #3cddd0;
-    --secondary-text-color: #f0c66d;
+    --primary-text-color: #47b3aa;
+    --secondary-text-color: #c3a86f;
     --tertiary-text-color: #ffffff;
 }
 
@@ -13,7 +13,7 @@
 
 .dark-mode {
     background: linear-gradient(135deg, var(--linear-bg-1), var(--linear-bg-2));
-    background-size: 400%;
+    background-size: 200% 200%;
     color: white;
 }
 
@@ -34,8 +34,8 @@
 }
 
 @keyframes breathe-1 {
-    from { box-shadow: 0px 0px 5px var(--secondary-text-color); }
-    to { box-shadow: 0px 0px 15px var(--secondary-text-color); }
+    from { box-shadow: 0px 0px 5px var(--primary-text-color); }
+    to { box-shadow: 0px 0px 15px var(--primary-text-color); }
 }
 
 .App .content {
@@ -165,6 +165,7 @@
     }
     .App .content {
         width: 100%;
+        margin: 10px 0px;
     }
     .App .nav-bar a.img-logo {
         margin: auto 0px;
@@ -181,8 +182,8 @@
         border-radius: 20px;
         left: 0;
         background-color: black;
-        margin: auto;
-        min-width: 100%;
+        margin: 0px 5%;
+        min-width: 90%;
         padding: 0.8rem 0px;
         gap: 0px;
         justify-content: space-evenly;
@@ -190,8 +191,8 @@
         animation: slide 1s forwards;
     }
     @keyframes slide {
-        from {translate: 0px -70px;}
-        to {translate: 0px 70px;}
+        from {translate: 0px -10vh;}
+        to {translate: 0px 11vh;}
     }
     .App .nav-bar nav .icon {
         margin: 10px;

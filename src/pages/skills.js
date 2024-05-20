@@ -5,7 +5,7 @@ function Skills()
 {
     return (
         <div className="main-3">
-            <h2 style={{color: "var(--primary-text-color)"}}>Skills</h2>
+            <h2>Skills</h2>
             <div className="main-3-1">
                 <p className="main-3-1-title">Programming Languages</p>
                 <div className="main-3-1-content">
@@ -22,7 +22,7 @@ function Skills()
                     <p className="main-3-1-label">MongoDB</p>
                 </div>
             </div>
-            <h2 style={{color: "var(--primary-text-color)"}}>Achievements</h2>
+            <h2>Achievements</h2>
             <div className="main-3-1">
                 <p className="main-3-1-title">Smart India Hackathon 2023</p>
                 <div className="main-3-1-content">

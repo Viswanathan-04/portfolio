@@ -11,7 +11,7 @@
     padding: 10px;
     background-color: rgb(50, 50, 50);
     border: 3px solid var(--tertiary-text-color);
-    box-shadow: 0px 0px 10px var(--tertiary-text-color);
+    box-shadow: 0px 0px 7px var(--tertiary-text-color);
     border-radius: 25px;
     display: flex;
     flex-direction: row;
@@ -36,7 +36,7 @@
 }
 .main-3 .main-3-1 .main-3-1-content .main-3-1-label
 {
-    border: 3px solid var(--secondary-text-color);
+    border: 3px solid var(--primary-text-color);
     color: var(--seconary-text-color);
     font-size: 18px;
     margin: 10px auto;
@@ -44,6 +44,9 @@
     border-radius: 20px;
 }
 @media screen and (max-width:768px) {
+    .main-3 .main-3-1{
+        margin-top: 15px;
+    }
     .main-3 .main-3-1
     {
         flex-direction: column;

@@ -23,7 +23,7 @@
     margin: auto 0px;
     background-color: transparent;
     border: none;
-    color: var(--primary-text-color);
+    color: var(--tertiary-text-color);
     text-decoration: none;
     font-size: 18px;
 }
