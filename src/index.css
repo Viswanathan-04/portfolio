@@ -6,7 +6,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(135deg, rgb(20, 20, 20), rgb(60, 60, 60));
+  background: linear-gradient(135deg, rgb(40, 40, 40), rgb(40, 40, 40));
   background-size: 200% 100%;
   font-family: "Sriracha";
   background-repeat: no-repeat;

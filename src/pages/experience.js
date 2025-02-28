@@ -9,11 +9,28 @@ function Experience()
             <div className="main-2-1">
                 <div className="main-2-1-left">
                     <div className="main-2-1-company">
+                        <img src="https://media.licdn.com/dms/image/v2/D560BAQEnzFAW7ctffg/company-logo_200_200/company-logo_200_200/0/1732825695940?e=1746057600&v=beta&t=UPQFI9A4kNhYjbPWSgP7WY4u63iaTVyEB7I-7ZTKukw" style={{width: "50px", borderRadius: "50%", padding: "5px"}} alt="logo-preview"></img>
+                        <p>Ofline - IIT Madras</p>
+                    </div>
+                    <div className="main-2-1-location">
+                        <p>January 2024 - January 2025</p>
+                        <p>OMR, Chennai</p>
+                    </div>
+                </div>
+                <div className="main-2-1-desc">
+                    <p>• Led Google Developer Student Clubs (GDSC) as Machine Learning Lead for my college, fostering a vibrant community for enthusiasts, organizing workshops, and mentoring members through hands-on projects.</p>
+                    <p>• Facilitated networking opportunities with industry professionals, enhancing members career prospects and fostering collaborations within the machine learning ecosystem.</p>
+                    <p>• Demonstrated leadership and organizational skills by coordinating events, promoting knowledge sharing, and driving engagement in the field of machine learning within the university community.</p>
+                </div>
+            </div>
+            <div className="main-2-1">
+                <div className="main-2-1-left">
+                    <div className="main-2-1-company">
                         <img src="https://sdn.signalhire.co/storage/company/1ddf/83d0/2cbb/a919/0b70/7111/63f0/6d1a.webp" style={{width: "50px", borderRadius: "50%", padding: "5px"}} alt="logo-preview"></img>
                         <p>Google Developer Student Club</p>
                     </div>
                     <div className="main-2-1-location">
-                        <p>February 2024 - Present</p>
+                        <p>January 2024 - December 2025</p>
                         <p>OMR, Chennai</p>
                     </div>
                 </div>

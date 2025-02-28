@@ -14,12 +14,15 @@ function Skills()
                     <p className="main-3-1-label">C - Basic</p>
                     <p className="main-3-1-label">MySQL</p>
                     <p className="main-3-1-label">ReactJS</p>
+                    <p className="main-3-1-label">NodeJS</p>
+                    <p className="main-3-1-label">ExpressJS</p>
                     <p className="main-3-1-label">Flask</p>
-                    <p className="main-3-1-label">HTML - CSS</p>
-                    <p className="main-3-1-label">PowerBI</p>
-                    <p className="main-3-1-label">Tableau</p>
+                    <p className="main-3-1-label">HTML/CSS</p>
                     <p className="main-3-1-label">Flutter</p>
+                    <p className="main-3-1-label">Dart</p>
+                    <p className="main-3-1-label">Firebase</p>
                     <p className="main-3-1-label">MongoDB</p>
+                    <p className="main-3-1-label">RESTful APIs</p>
                 </div>
             </div>
             <h2>Achievements</h2>

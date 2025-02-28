@@ -13,7 +13,7 @@ function Home()
                 <div className="main-1-1-1">
                     <div className="desc-1-1">Hi there,</div>
                     <div className="desc-1-2">I'm <span className="glow">Viswanathan Krishnan</span></div>
-                    <div className="desc-1-3">Entry-level Data Science and Fullstack enthusiast who is keen to contribute to a cause. I am a young, energetic and techy individual whose desire to learn is endless.</div>
+                    <div className="desc-1-3">A passionate Mobile App Developer and Fullstack enthusiast who is keen to contribute to a cause. I am a young, energetic and techy individual whose desire to learn is endless.</div>
                     <div className="buttons-1">
                         <a href={resume} download="resume.pdf" className="resume-1"><span>Download Resume</span> <FaArrowDown/></a>
                         <a href="tel:+919600071484" className="contacts-1"><FaPhone style={{rotate: "90deg"}}/><span>Contact Me</span></a>
@@ -51,49 +51,79 @@ function Home()
                         </div>
                     </div>
                 </div>
-                <div className="education-1">
-                    <h2 style={{textAlign: "center"}}>Quick Links</h2>
-                    <div className="main-2-1">
-                        <div className="dot">
-                            <FaGithub/>
+                <div className="contact_details">
+                    <div className="education-1">
+                        <h2 style={{textAlign: "center"}}>Quick Links</h2>
+                        <div className="main-2-1">
+                            <div className="dot">
+                                <FaGithub/>
+                            </div>
+                            <div className="main-2-1-contents">
+                                <a className="main-2-1-desc1" href="https://github.com/Viswanathan-04">Viswanathan-04</a>
+                            </div>
                         </div>
-                        <div className="main-2-1-contents">
-                            <a className="main-2-1-desc1" href="https://github.com/Viswanathan-04">Viswanathan-04</a>
+                        <div className="main-2-1">
+                            <div className="dot">
+                                <FaLinkedin/>
+                            </div>
+                            <div className="main-2-1-contents">
+                                <a className="main-2-1-desc1" href="https://www.linkedin.com/in/viswanathan-krishnan-949770229/">Viswanathan Krishnan</a>
+                            </div>
+                        </div>
+                        <div className="main-2-1">
+                            <div className="dot">
+                                <FaCode/>
+                            </div>
+                            <div className="main-2-1-contents">
+                                <a className="main-2-1-desc1" href="https://leetcode.com/Viswanathan-04">Viswanathan-04</a>
+                            </div>
                         </div>
                     </div>
-                    <div className="main-2-1">
-                        <div className="dot">
-                            <FaLinkedin/>
+                    <div className="education-1">
+                        <h2 style={{textAlign: "center"}}>Contact Details</h2>
+                        <div className="main-2-1">
+                            <div className="dot">
+                                <FaPhone style={{rotate : "90deg"}}/>
+                            </div>
+                            <div className="main-2-1-contents">
+                                <a href="tel:+919600071484" className="main-2-1-desc1">+91 96000 71484</a>
+                            </div>
                         </div>
-                        <div className="main-2-1-contents">
-                            <a className="main-2-1-desc1" href="https://www.linkedin.com/in/viswanathan-krishnan-949770229/">Viswanathan Krishnan</a>
-                        </div>
-                    </div>
-                    <div className="main-2-1">
-                        <div className="dot">
-                            <FaCode/>
-                        </div>
-                        <div className="main-2-1-contents">
-                            <a className="main-2-1-desc1" href="https://leetcode.com/Viswanathan-04">Viswanathan-04</a>
+                        <div className="main-2-1">
+                            <div className="dot">
+                                <FaEnvelope/>
+                            </div>
+                            <div className="main-2-1-contents">
+                                <Link to="/contact" className="main-2-1-desc1">vish2004k@gmail.com</Link>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div className="education-1">
-                    <h2 style={{textAlign: "center"}}>Contact Details</h2>
-                    <div className="main-2-1">
-                        <div className="dot">
-                            <FaPhone style={{rotate : "90deg"}}/>
+                <div className="home_btns">
+                    <h2 style={{textAlign: "center"}}>Expertise</h2>
+                    <div className="expertise">
+                        <p style={{color: "var(--secondary-text-color)", fontSize: "20px"}}>Mobile Application Development</p>
+                        <div className="skills_lang">
+                            <p>Flutter |</p>
+                            <p>Firebase |</p>
+                            <p>Dart</p>
                         </div>
-                        <div className="main-2-1-contents">
-                            <a href="tel:+919600071484" className="main-2-1-desc1">+91 96000 71484</a>
+                        <div className="skills_lang">
+                            <p>Flavors |</p>
+                            <p>Riverpod State Mgmt</p>
                         </div>
                     </div>
-                    <div className="main-2-1">
-                        <div className="dot">
-                            <FaEnvelope/>
+                    <div className="expertise">
+                        <p style={{color: "var(--secondary-text-color)", fontSize: "20px"}}>Full Stack Development</p>
+                        <div className="skills_lang">
+                            <p>HTML/CSS |</p>
+                            <p>Javascript |</p>
+                            <p>ReactJS</p>
                         </div>
-                        <div className="main-2-1-contents">
-                            <Link to="/contact" className="main-2-1-desc1">vish2004k@gmail.com</Link>
+                        <div className="skills_lang">
+                            <p>NodeJS |</p>
+                            <p>ExpressJS |</p>
+                            <p>MongoDB</p>
                         </div>
                     </div>
                 </div>
