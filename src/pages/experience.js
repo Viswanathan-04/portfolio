@@ -18,9 +18,9 @@ function Experience()
                     </div>
                 </div>
                 <div className="main-2-1-desc">
-                    <p>• Led Google Developer Student Clubs (GDSC) as Machine Learning Lead for my college, fostering a vibrant community for enthusiasts, organizing workshops, and mentoring members through hands-on projects.</p>
-                    <p>• Facilitated networking opportunities with industry professionals, enhancing members career prospects and fostering collaborations within the machine learning ecosystem.</p>
-                    <p>• Demonstrated leadership and organizational skills by coordinating events, promoting knowledge sharing, and driving engagement in the field of machine learning within the university community.</p>
+                    <p>• Resolved 3 major challenges of a local market by developing applications with backend for seamless functionality.</p>
+                    <p>• Architectured 2 applications (for customer & merchant seperately) using Flutter, Firebase, RestFUL APIs, Riverpod State and Flavor Management.</p>
+                    <p>• Live on PlayStore with 100+ downloads during pilot test inside IIT Madras campus.</p>
                 </div>
             </div>
             <div className="main-2-1">
