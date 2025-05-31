@@ -9,7 +9,7 @@ function Experience()
             <div className="main-2-1">
                 <div className="main-2-1-left">
                     <div className="main-2-1-company">
-                        <img src="https://media.licdn.com/dms/image/v2/D560BAQEnzFAW7ctffg/company-logo_200_200/company-logo_200_200/0/1732825695940?e=1746057600&v=beta&t=UPQFI9A4kNhYjbPWSgP7WY4u63iaTVyEB7I-7ZTKukw" style={{width: "50px", borderRadius: "50%", padding: "5px"}} alt="logo-preview"></img>
+                        <img src="https://media.licdn.com/dms/image/v2/D560BAQEnzFAW7ctffg/company-logo_200_200/company-logo_200_200/0/1732825695940?e=1753920000&v=beta&t=MYAuBqtnNqwSy7qsaOzpv9CDKCm5FEI73PKZjxAhL3c" style={{width: "50px", borderRadius: "50%", padding: "5px"}} alt="logo-preview"></img>
                         <p>Ofline - IIT Madras</p>
                     </div>
                     <div className="main-2-1-location">

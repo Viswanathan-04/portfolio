@@ -11,17 +11,13 @@ function Skills()
                 <div className="main-3-1-content">
                     <p className="main-3-1-label">Python</p>
                     <p className="main-3-1-label">Java</p>
-                    <p className="main-3-1-label">C - Basic</p>
                     <p className="main-3-1-label">MySQL</p>
                     <p className="main-3-1-label">ReactJS</p>
-                    <p className="main-3-1-label">NodeJS</p>
-                    <p className="main-3-1-label">ExpressJS</p>
                     <p className="main-3-1-label">Flask</p>
                     <p className="main-3-1-label">HTML/CSS</p>
                     <p className="main-3-1-label">Flutter</p>
                     <p className="main-3-1-label">Dart</p>
                     <p className="main-3-1-label">Firebase</p>
-                    <p className="main-3-1-label">MongoDB</p>
                     <p className="main-3-1-label">RESTful APIs</p>
                 </div>
             </div>
@@ -39,11 +35,13 @@ function Skills()
                 </div>
             </div>
             <div className="main-3-1">
-                <p className="main-3-1-title">Other Achievements</p>
+                <p className="main-3-1-title">Certifications</p>
                 <div className="main-3-1-content">
-                    <p className="main-3-2-label">• Leetcode - 450+ Problems</p>
+                    {/* <p className="main-3-2-label">• Leetcode - 250+ Problems</p>
                     <p className="main-3-2-label">• Skillrack - 1000+ Medals</p>
-                    <p className="main-3-2-label">• Hackerrank - 6795 Hackos </p>
+                    <p className="main-3-2-label">• Hackerrank - 6795 Hackos </p> */}
+                    <p className="main-3-2-label">• Coursera -- Introduction to Data Analytics - Meta</p>
+                    <p className="main-3-2-label">• Business English Certificate - Vantage B2</p>
                 </div>
             </div>
         </div>

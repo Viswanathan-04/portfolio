@@ -1,7 +1,7 @@
 import React from "react";
 import './home.css';
 import background from "../res/background.png";
-import resume from "../res/Viswanathan_Krishnan_Resume_1.pdf";
+import resume from "../res/Viswanathan_Krishnan_Resume.pdf";
 import { Link } from "react-router-dom";
 import { FaArrowDown, FaCode, FaDotCircle, FaEnvelope, FaGithub, FaLinkedin, FaPhone } from "react-icons/fa";
 
@@ -32,8 +32,8 @@ function Home()
                             <p className="main-2-1-desc1">St. Joseph's College of Engineering</p>
                             <p className="main-2-1-desc1">OMR, Chennai-600119</p>
                             <hr></hr>
-                            <p className="main-2-1-desc2">CGPA - 8.55</p>
-                            <p className="main-2-1-desc2">November 2021 - Present</p>
+                            <p className="main-2-1-desc2">CGPA - 8.63</p>
+                            <p className="main-2-1-desc2">November 2021 - May 2025</p>
                             <p className="main-2-1-desc2">Bachelor of Technology, IT</p>
                         </div>
                     </div>
@@ -70,14 +70,14 @@ function Home()
                                 <a className="main-2-1-desc1" href="https://www.linkedin.com/in/viswanathan-krishnan-949770229/">Viswanathan Krishnan</a>
                             </div>
                         </div>
-                        <div className="main-2-1">
+                        {/* <div className="main-2-1">
                             <div className="dot">
                                 <FaCode/>
                             </div>
                             <div className="main-2-1-contents">
                                 <a className="main-2-1-desc1" href="https://leetcode.com/Viswanathan-04">Viswanathan-04</a>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                     <div className="education-1">
                         <h2 style={{textAlign: "center"}}>Contact Details</h2>
@@ -114,16 +114,24 @@ function Home()
                         </div>
                     </div>
                     <div className="expertise">
-                        <p style={{color: "var(--secondary-text-color)", fontSize: "20px"}}>Full Stack Development</p>
+                        <p style={{color: "var(--secondary-text-color)", fontSize: "20px"}}>Web Development</p>
                         <div className="skills_lang">
                             <p>HTML/CSS |</p>
                             <p>Javascript |</p>
                             <p>ReactJS</p>
                         </div>
-                        <div className="skills_lang">
+                        {/* <div className="skills_lang">
                             <p>NodeJS |</p>
                             <p>ExpressJS |</p>
                             <p>MongoDB</p>
+                        </div> */}
+                    </div>
+                    <div className="expertise">
+                        <p style={{color: "var(--secondary-text-color)", fontSize: "20px"}}>Database</p>
+                        <div className="skills_lang">
+                            <p>MySQL |</p>
+                            <p>Firebase Firestore |</p>
+                            <p>SQFlite</p>
                         </div>
                     </div>
                 </div>
