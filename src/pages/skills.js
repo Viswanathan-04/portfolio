@@ -40,7 +40,7 @@ function Skills()
                     {/* <p className="main-3-2-label">• Leetcode - 250+ Problems</p>
                     <p className="main-3-2-label">• Skillrack - 1000+ Medals</p>
                     <p className="main-3-2-label">• Hackerrank - 6795 Hackos </p> */}
-                    <p className="main-3-2-label">• Coursera -- Introduction to Data Analytics - Meta</p>
+                    <p className="main-3-2-label">• Coursera - Introduction to Data Analytics - Meta</p>
                     <p className="main-3-2-label">• Business English Certificate - Vantage B2</p>
                 </div>
             </div>

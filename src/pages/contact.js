@@ -3,7 +3,7 @@ import emailjs from '@emailjs/browser';
 import "./contact.css";
 import axios from "axios";
 import { useEffect } from "react";
-import { FaCode, FaPhone, FaGithub, FaInstagram, FaLinkedin, FaExclamationCircle } from "react-icons/fa";
+import {  FaPhone, FaGithub, FaInstagram, FaLinkedin, FaExclamationCircle, FaMedium } from "react-icons/fa";
 
 function Contact()
 {
@@ -59,7 +59,7 @@ function Contact()
                 <div className="contact-links">
                     <a href="https://github.com/Viswanathan-04" className="link-git"><FaGithub/></a>
                     <a href="https://www.linkedin.com/in/viswanathan-krishnan-949770229/" className="link-git"><FaLinkedin/></a>
-                    {/* <a href="https://leetcode.com/Viswanathan-04" className="link-git"><FaCode/></a> */}
+                    <a href="https://medium.com/@vish2004k" className="link-git"><FaMedium/></a>
                     <a href="tel:+919600071484" className="link-git"><FaPhone style={{rotate: "90deg"}}/></a>
                     <a href="https://instagram.com/vishnu.k04" className="link-git"><FaInstagram/></a>
                 </div>

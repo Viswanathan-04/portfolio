@@ -3,7 +3,7 @@ import './home.css';
 import background from "../res/background.png";
 import resume from "../res/Viswanathan_Krishnan_Resume.pdf";
 import { Link } from "react-router-dom";
-import { FaArrowDown, FaCode, FaDotCircle, FaEnvelope, FaGithub, FaLinkedin, FaPhone } from "react-icons/fa";
+import { FaArrowDown,  FaDotCircle, FaEnvelope, FaGithub, FaLinkedin, FaMedium, FaPhone } from "react-icons/fa";
 
 function Home()
 {
@@ -13,9 +13,9 @@ function Home()
                 <div className="main-1-1-1">
                     <div className="desc-1-1">Hi there,</div>
                     <div className="desc-1-2">I'm <span className="glow">Viswanathan Krishnan</span></div>
-                    <div className="desc-1-3">A passionate Mobile App Developer and Fullstack enthusiast who is keen to contribute to a cause. I am a young, energetic and techy individual whose desire to learn is endless.</div>
+                    <div className="desc-1-3">A passionate Mobile App Developer and Machine Learning enthusiast who is keen to contribute to a cause. I am a young, energetic and techy individual whose desire to learn is endless.</div>
                     <div className="buttons-1">
-                        <a href={resume} download="resume.pdf" className="resume-1"><span>Download Resume</span> <FaArrowDown/></a>
+                        <a href={resume} download="Viswanathan_Krishnan_Resume.pdf" className="resume-1"><span>Download Resume</span> <FaArrowDown/></a>
                         <a href="tel:+919600071484" className="contacts-1"><FaPhone style={{rotate: "90deg"}}/><span>Contact Me</span></a>
                     </div>
                 </div>
@@ -46,8 +46,8 @@ function Home()
                             <p className="main-2-1-desc1">Selaiyur, Chennai-600073</p>
                             <hr></hr>
                             <p className="main-2-1-desc2">Percentage - 94.80%</p>
-                            <p className="main-2-1-desc2">June 2012 - May 2021</p>
-                            <p className="main-2-1-desc2">Higher Secondary School</p>
+                            <p className="main-2-1-desc2">June 2019 - May 2021</p>
+                            <p className="main-2-1-desc2">Senior Secondary Schooling</p>
                         </div>
                     </div>
                 </div>
@@ -70,14 +70,14 @@ function Home()
                                 <a className="main-2-1-desc1" href="https://www.linkedin.com/in/viswanathan-krishnan-949770229/">Viswanathan Krishnan</a>
                             </div>
                         </div>
-                        {/* <div className="main-2-1">
+                        <div className="main-2-1">
                             <div className="dot">
-                                <FaCode/>
+                                <FaMedium/>
                             </div>
                             <div className="main-2-1-contents">
-                                <a className="main-2-1-desc1" href="https://leetcode.com/Viswanathan-04">Viswanathan-04</a>
+                                <a className="main-2-1-desc1" href="https://medium.com/@vish2004k">Viswanathan-04</a>
                             </div>
-                        </div> */}
+                        </div>
                     </div>
                     <div className="education-1">
                         <h2 style={{textAlign: "center"}}>Contact Details</h2>
@@ -104,12 +104,12 @@ function Home()
                     <div className="expertise">
                         <p style={{color: "var(--secondary-text-color)", fontSize: "20px"}}>Mobile Application Development</p>
                         <div className="skills_lang">
+                            <p>Dart |</p>
                             <p>Flutter |</p>
-                            <p>Firebase |</p>
-                            <p>Dart</p>
+                            <p>Flutter Flavors</p>
                         </div>
                         <div className="skills_lang">
-                            <p>Flavors |</p>
+                            <p>Firebase |</p>
                             <p>Riverpod State Mgmt</p>
                         </div>
                     </div>
@@ -120,11 +120,6 @@ function Home()
                             <p>Javascript |</p>
                             <p>ReactJS</p>
                         </div>
-                        {/* <div className="skills_lang">
-                            <p>NodeJS |</p>
-                            <p>ExpressJS |</p>
-                            <p>MongoDB</p>
-                        </div> */}
                     </div>
                     <div className="expertise">
                         <p style={{color: "var(--secondary-text-color)", fontSize: "20px"}}>Database</p>

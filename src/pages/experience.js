@@ -14,30 +14,34 @@ function Experience()
                     </div>
                     <div className="main-2-1-location">
                         <p>January 2024 - January 2025</p>
-                        <p>OMR, Chennai</p>
+                        <p>IIT Madras Nirmaan, Chennai</p>
                     </div>
                 </div>
                 <div className="main-2-1-desc">
-                    <p>• Resolved 3 major challenges of a local market by developing applications with backend for seamless functionality.</p>
-                    <p>• Architectured 2 applications (for customer & merchant seperately) using Flutter, Firebase, RestFUL APIs, Riverpod State and Flavor Management.</p>
-                    <p>• Live on PlayStore with 100+ downloads during pilot test inside IIT Madras campus.</p>
+                    <p>• Optimized the customer experience by resolving 3 major issues in the local market sector, enabling faster, smoother, and more efficient service delivery.</p>
+                    <p>• Developed 2 distinct Mobile applications tailored for customer and merchant use, facilitating
+seamless communication and enabling efficient end-to-end operational workflows.</p>
+                    <p>• Published on Google Play Store, achieving 100+ downloads and managing daily customer orders to
+drive seamless operations and high user satisfaction.</p>
+                    <p>• Leveraged Flutter, Dart, Firebase Auth & Cloud Firestore, Riverpod State Mgmt, Flutter
+Flavors, and FCM to develop the mobile applications.</p>
                 </div>
             </div>
             <div className="main-2-1">
                 <div className="main-2-1-left">
                     <div className="main-2-1-company">
                         <img src="https://sdn.signalhire.co/storage/company/1ddf/83d0/2cbb/a919/0b70/7111/63f0/6d1a.webp" style={{width: "50px", borderRadius: "50%", padding: "5px"}} alt="logo-preview"></img>
-                        <p>Google Developer Student Club</p>
+                        <p>Google Developer Student Club - ML Lead</p>
                     </div>
                     <div className="main-2-1-location">
-                        <p>January 2024 - December 2025</p>
+                        <p>January 2024 - December 2024</p>
                         <p>OMR, Chennai</p>
                     </div>
                 </div>
                 <div className="main-2-1-desc">
-                    <p>• Led Google Developer Student Clubs (GDSC) as Machine Learning Lead for my college, fostering a vibrant community for enthusiasts, organizing workshops, and mentoring members through hands-on projects.</p>
-                    <p>• Facilitated networking opportunities with industry professionals, enhancing members career prospects and fostering collaborations within the machine learning ecosystem.</p>
-                    <p>• Demonstrated leadership and organizational skills by coordinating events, promoting knowledge sharing, and driving engagement in the field of machine learning within the university community.</p>
+                    <p>• Led Machine Learning initiatives as part of GDSC, organizing and conducting live challenges, hackathons, and study jams for over 200+ students</p>
+                    <p>• Designed and delivered ML content, including hands-on sessions on Python and scikit-learn, fostering practical learning and peer collaboration.</p>
+                    <p>• Mentored beginner and intermediate students, guiding them through ML concepts, project development, and participation in community challenges.</p>
                 </div>
             </div>
             <div className="main-2-1">

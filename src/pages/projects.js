@@ -24,7 +24,7 @@ function Projects() {
                 <a className="more-btn" href="https://github.com/Viswanathan-04?tab=repositories">See More</a>
             </div>
             <div className="projects">
-            {data1!=="Error Connecting to Network" ? data1.slice(3,11).map(repo => (
+            {data1!=="Error Connecting to Network" ? data1.slice(3,13).map(repo => (
                 <div key={repo.id} className="main-4-1"> 
                     <div className="project">
                         <div className="project-title">

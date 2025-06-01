@@ -19,7 +19,11 @@
 }
 .main-2 .main-2-1 .main-2-1-left
 {
-    min-width: 25%;
+    width: 25vw;
+}
+.main-2 .main-2-1 .main-2-1-desc
+{
+    width: 75vw;
 }
 .main-2 .main-2-1 .main-2-1-company p
 {
