@@ -1,0 +1,48 @@
+:root {
+  --white: #ffffff;
+  --grey: #252525;
+  --black: #000000;
+  --light-blue: #0084ff;
+  --dark-blue: #3a34aa;
+  --light-green: #47e76f;
+}
+.dark-mode{
+  --light-blue: #59e9f9;
+  --dark-blue: #3a75a1;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: linear-gradient(135deg, rgb(250, 220, 220), rgb(174, 234, 255) 30%);
+  margin: 0px 10px;
+  transition: 1s ease-in-out;
+  font-family: "Winky Rough", sans-serif;
+  color: var(--black);
+} 
+.dark-mode {
+    background: var(--grey);
+    color: white;
+}
+* {
+  cursor: none;
+}
+.cursor {
+  position: absolute;
+  z-index: 4;
+  background: var(--dark-blue);
+  width: 10px;
+  height: 10px;
+  border-radius: 30px;
+  pointer-events: none;
+  box-shadow: 0 0 15px 5px var(--light-blue);
+}
+.dark-mode .cursor {
+  background: var(--light-blue  );
+}
+
+@media screen and (max-width: 500px) {
+  .cursor {
+    display: none;
+  }
+}
